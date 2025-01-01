@@ -3,6 +3,8 @@
     padding: 0;
 }
 
+/* Top navigation */
+
 .topnav {
     display: flex;
     justify-content: space-between;
@@ -36,6 +38,8 @@
     font-weight: 700;
 }
 
+/* Buttons */
+
 .primary {
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
@@ -44,5 +48,35 @@
     color: #000000;
     padding: 8px 16px;
     border: none;
+    max-width: 120px;
+}
+
+/* Banner */
+
+.banner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 480px;
+    background-color: #000000;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 24px;
+}
+
+.hero-text h1 {
+    font-family: 'Macondo Swash Caps', serif;
+    color:#5CD3E7;
+    font-size: 48px;
+}
+
+.hero-text p {
+    font-family: 'Open Sans', sans-serif;
+    color: #BBC0C2;
+    font-size: 16px;
 }
 
