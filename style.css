@@ -3,6 +3,16 @@
     padding: 0;
 }
 
+/* Fonts */
+
+h1, h2 {
+    font-family: 'Macondo Swash Caps', serif;
+}
+
+a, p {
+    font-family: 'Open Sans', sans-serif;
+}
+
 /* Top navigation */
 
 .topnav {
@@ -17,7 +27,6 @@
     display: flex;
     align-items: center;
     gap: 24px;
-    font-family: 'Open Sans', sans-serif;
     font-size: 14px;
 }
 
@@ -29,7 +38,6 @@
 .nav:hover {
     color: #5CD3E7;
     text-decoration: underline;
-    font-weight: 700;
 }
 
 .nav:active {
@@ -60,17 +68,22 @@
 .banner {
     display: flex;
     justify-content: space-around;
-    align-items: center;
-    height: 480px;
+    align-items:flex-end;
+    height: 320px auto;
     flex-wrap: wrap;
+    background-image: url("img/banner-bg.png");
     background-color: #000000;
+    padding: 48px;
+    gap: 48px;
 }
 
 .hero-text {
     display: flex;
     flex-direction: column;
     gap: 16px;
-    padding: 24px;
+    padding: 40px;
+    background-color: #000000;
+    max-width: 400px;
 }
 
 .hero-text h1 {
@@ -85,7 +98,7 @@
 
 /* Highlights */ 
 
-.highlights {
+.highlights, .reviews {
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -98,6 +111,8 @@
     justify-content:space-around;
     width: 100%;
     flex-wrap: wrap;
+    padding: 48px;
+    gap: 48px;
 }
 
 .highlights-card {
@@ -105,12 +120,50 @@
     flex-direction: column;
     align-items: center;
     gap: 8px;
+    max-width: 400px;
 }
 
 .highlights p {
     font-family: 'Open Sans', sans-serif;
+    text-align: center;
 }
 
 .highlight-card-title {
     font-weight: 700;
 }
+
+/* Reviews */
+
+.reviews {
+    background-color: #F3D72B;
+}
+
+.reviews-group {
+    width: auto;
+    max-width: 800px;
+}
+
+.reviews-group .quote{
+    font-style: italic;
+    font-size:large;
+    color:#444444;
+    padding-bottom: 8px;
+}
+
+.quoter {
+    text-align: right;
+    font-size: small;
+    color: #000000;
+}
+
+/* Footer */
+
+.footer {
+    text-align: center;
+    font-size: 10px;
+    padding: 16px;
+    color:#8f8f8f;
+    background-color: #000000;
+}
+
+
