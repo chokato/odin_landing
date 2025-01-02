@@ -106,11 +106,6 @@ a, p {
     padding: 48px;
 }
 
-.highlights {
-    background-color: #236100;
-    color: #ffffff;
-}
-
 .highlights-card-group {
     display: flex;
     justify-content:space-around;
@@ -125,7 +120,7 @@ a, p {
     flex-direction: column;
     align-items: center;
     gap: 8px;
-    max-width: 400px;
+    max-width: 280px;
 }
 
 .highlights p {
@@ -138,6 +133,10 @@ a, p {
 }
 
 /* Reviews */
+
+.reviews {
+    background-color: #F3D72B;
+}
 
 .reviews-group {
     width: auto;
