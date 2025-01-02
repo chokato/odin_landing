@@ -57,10 +57,12 @@ a, p {
     padding: 8px 16px;
     border: none;
     max-width: 120px;
+    height: auto;
 }
 
 .primary:hover {
     background-color: #ffffff;
+    cursor: pointer;
 }
 
 /* Banner */
@@ -98,7 +100,7 @@ a, p {
 
 /* Highlights */ 
 
-.highlights, .reviews {
+.highlights, .reviews, .cta {
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -152,8 +154,35 @@ a, p {
 
 .quoter {
     text-align: right;
-    font-size: small;
+    font-size: 14px;
     color: #000000;
+}
+
+/* CTA */
+
+.cta {
+    background-color: #000000;
+}
+
+.cta h2 {
+    color: #5CD3E7;
+}
+
+.cta p {
+    color:#BBC0C2;
+    font-size: 14px;
+}
+
+.custom-border {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+    border-image-width: auto;
+    border-style: solid;
+    border-image: url(img/border.png) 30 round;
+    padding: 24px;
+
 }
 
 /* Footer */
@@ -164,6 +193,7 @@ a, p {
     padding: 16px;
     color:#8f8f8f;
     background-color: #000000;
+    border-top: 1px solid #111111;
 }
 
 
